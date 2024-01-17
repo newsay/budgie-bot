@@ -21,6 +21,8 @@ export function AccountForm({
                 autoFocus
                 required
                 type="email"
+                id="email"
+                name="email"
                 value={email}
                 onChange={e => updateFields({ email: e.target.value })}
             />
@@ -28,6 +30,8 @@ export function AccountForm({
             <input
                 required
                 type="password"
+                id="password"
+                name="password"
                 value={password}
                 onChange={e => updateFields({ password: e.target.value })}
             />

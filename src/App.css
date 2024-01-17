@@ -23,3 +23,20 @@
   color: #888;
 }
 
+.new {
+  background-color: white;
+}
+
+.multiSelectBtn {
+  min-width: 10vw;
+}
+
+
+form {
+  color: red;
+}
+
+input {
+  color: black;
+  background-color: #e0e0e0;
+}

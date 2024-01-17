@@ -23,6 +23,8 @@ export function UserForm({
                 autoFocus
                 required
                 type="text"
+                id="fname"
+                name="fname"
                 value={firstName}
                 onChange={e => updateFields({ firstName: e.target.value })}
             />
@@ -30,6 +32,8 @@ export function UserForm({
             <input
                 required
                 type="text"
+                id="lname"
+                name="lname"
                 value={lastName}
                 onChange={e => updateFields({ lastName: e.target.value })}
             />
@@ -38,6 +42,8 @@ export function UserForm({
                 required
                 min={1}
                 type="number"
+                id="age"
+                name="age"
                 value={age}
                 onChange={e => updateFields({ age: e.target.value })}
             />
