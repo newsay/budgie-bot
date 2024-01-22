@@ -3,6 +3,7 @@ import budgieLogo from './assets/budgieLogo.png'
 import './App.css'
 import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
+import { Summary } from './ui/components/summary-page/Summary';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
@@ -28,6 +29,7 @@ function App() {
             Click on the Vite and React logos to learn more
           </p>
         </Box>
+        <Summary />
       </Container>
 
     </>
